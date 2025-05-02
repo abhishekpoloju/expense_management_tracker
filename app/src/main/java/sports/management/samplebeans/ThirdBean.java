@@ -1,4 +1,4 @@
-package org.example.samplebeans;
+package sports.management.samplebeans;
 
 import org.springframework.stereotype.Component;
 

@@ -1,4 +1,4 @@
-package org.example.samplebeans;
+package sports.management.samplebeans;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

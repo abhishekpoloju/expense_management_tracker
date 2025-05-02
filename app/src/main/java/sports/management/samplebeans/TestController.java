@@ -1,4 +1,4 @@
-package org.example.samplebeans;
+package sports.management.samplebeans;
 
 
 import org.springframework.http.MediaType;
@@ -14,10 +14,21 @@ public class TestController {
 
     @GetMapping(value = "test", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.ALL_VALUE)
     @ResponseBody
-    public HashMap<String, String> doget(){
+    public String doget(){
         HashMap<String, String> h1 = new HashMap<>();
         h1.put("hi","value");
         h1.put("yo","to");
-        return  h1;
+        System.out.println("write test");
+        return  "test";
+    }
+
+    @GetMapping(value = "best", produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.ALL_VALUE)
+    @ResponseBody
+    public String roget(){
+        HashMap<String, String> h1 = new HashMap<>();
+        h1.put("hi","value");
+        h1.put("yo","to");
+        System.out.println("do best");
+        return  "best";
     }
 }
