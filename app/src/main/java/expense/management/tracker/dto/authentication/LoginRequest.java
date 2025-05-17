@@ -1,4 +1,4 @@
-package sports.management.dto.authentication;
+package expense.management.tracker.dto.authentication;
 
 public class LoginRequest {
     private String userName;

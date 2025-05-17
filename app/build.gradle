@@ -29,6 +29,9 @@ dependencies {
     implementation 'org.springframework.security:spring-security-core:6.4.5'
     implementation 'org.springframework.security:spring-security-web:6.4.5'
     implementation 'org.springframework.security:spring-security-config:6.4.5'
+    implementation 'org.springframework.data:spring-data-jdbc:4.0.0-M2'
+    implementation 'mysql:mysql-connector-java:8.0.33'
+
 }
 
 // Apply a specific Java toolchain to ease working on different environments.

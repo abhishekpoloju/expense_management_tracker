@@ -1,9 +1,8 @@
-package sports.management.configuration.webconfig;
+package expense.management.tracker.configuration.webconfig;
 
 import jakarta.servlet.*;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.filter.DelegatingFilterProxy;
-import sports.management.configuration.AppConfig;
+import expense.management.tracker.configuration.AppConfig;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;

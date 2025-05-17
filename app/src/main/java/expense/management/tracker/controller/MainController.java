@@ -1,4 +1,4 @@
-package sports.management.controller;
+package expense.management.tracker.controller;
 
 
 import org.springframework.http.MediaType;
