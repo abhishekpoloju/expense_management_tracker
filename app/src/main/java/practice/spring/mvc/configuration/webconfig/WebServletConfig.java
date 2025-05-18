@@ -1,8 +1,8 @@
-package expense.management.tracker.configuration.webconfig;
+package practice.spring.mvc.configuration.webconfig;
 
 import jakarta.servlet.*;
 import org.springframework.web.filter.DelegatingFilterProxy;
-import expense.management.tracker.configuration.AppConfig;
+import practice.spring.mvc.configuration.AppConfig;
 
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;

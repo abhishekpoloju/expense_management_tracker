@@ -1,4 +1,4 @@
-package expense.management.tracker.controller;
+package practice.spring.mvc.controller;
 
 import org.springframework.web.bind.annotation.*;
 

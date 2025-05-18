@@ -1,4 +1,4 @@
-package expense.management.tracker.controller;
+package practice.spring.mvc.controller;
 
 
 import org.springframework.http.MediaType;
@@ -13,10 +13,6 @@ public class MainController {
 
     @GetMapping("/test")
     public String doget(){
-        HashMap<String, String> h1 = new HashMap<>();
-        h1.put("hi","value");
-        h1.put("yo","to");
-        System.out.println("write test");
         return  "test";
     }
 

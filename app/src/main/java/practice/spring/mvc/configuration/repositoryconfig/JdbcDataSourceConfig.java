@@ -1,4 +1,4 @@
-package expense.management.tracker.configuration.repositoryconfig;
+package practice.spring.mvc.configuration.repositoryconfig;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

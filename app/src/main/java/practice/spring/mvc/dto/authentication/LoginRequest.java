@@ -1,4 +1,4 @@
-package expense.management.tracker.dto.authentication;
+package practice.spring.mvc.dto.authentication;
 
 public class LoginRequest {
     private String userName;
